@@ -8,6 +8,10 @@ from base_caching import BaseCaching
 class BasicCache(BaseCaching):
     """ Basic Cache class inheriting from BaseCaching
         No limit to cache items
+
+        Methods:
+            put - insert into the cache
+            get - retrieve from the cache
     """
     def __init__(self):
         """ initializing """
